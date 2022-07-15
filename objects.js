@@ -1,13 +1,13 @@
-// let fruit= {
-//     fruitPriceList:{"Orange": 30, "mango": 15, "avocado": 40},
-//     calculateFruitCost:function(fruitName,quantity){
-//         if (this.fruitPriceList[fruitName]===undefined){
-//             return `${fruitName} is not available`
-//         }
-//         return `${quantity} ${fruitName} at ${quantity * this.fruitPriceList[fruitName]}`
-//         }
-// }
-// console.log(fruit.calculateFruitCost("apple",3))
+let fruit= {
+    fruitPriceList:{"Orange": 30, "mango": 15, "avocado": 40},
+    calculateFruitCost:function(fruitName,quantity){
+        if (this.fruitPriceList[fruitName]===undefined){
+            return `${fruitName} is not available`
+        }
+        return `${quantity} ${fruitName} at ${quantity * this.fruitPriceList[fruitName]}`
+        }
+}
+console.log(fruit.calculateFruitCost("apple",3))
 
 
 class KioskCalc{
